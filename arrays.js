@@ -27,17 +27,17 @@ function removeElementFromEndOfArray (array) {
 }
 
 function destructivelyRemoveElementFromEndOfArray(array){
-  array.pop()
+  array.pop() // removes last/most recent added element in array
   return array
 }
 
 function destructivelyRemoveElementFromBeginningOfArray(array) {
-  array.shift()
+  array.shift() // removes first element in array
   return array
 
 }
 
 function destructivelyAddElementToEndOfArray(array, element) {
-  array.push(element)
+  array.push(element) // adds element at end of array
   return array
 }
